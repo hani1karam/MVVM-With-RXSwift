@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aGu-8B-Pyz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="MVVM_With_RXSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Fjx-BZ-roX">
+                                <rect key="frame" x="87" y="92" width="240" height="217"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l6r-0g-5Jg" customClass="CustomeView" customModule="MVVM_With_RXSwift" customModuleProvider="target">
+                                <rect key="frame" x="20" y="364" width="374" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cwt-Co-1ll">
+                                        <rect key="frame" x="8" y="8" width="358" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="cwt-Co-1ll" firstAttribute="leading" secondItem="l6r-0g-5Jg" secondAttribute="leading" constant="8" id="9GT-fp-8Lg"/>
+                                    <constraint firstItem="cwt-Co-1ll" firstAttribute="top" secondItem="l6r-0g-5Jg" secondAttribute="top" constant="8" id="Ha2-xQ-cng"/>
+                                    <constraint firstAttribute="trailing" secondItem="cwt-Co-1ll" secondAttribute="trailing" constant="8" id="vhI-rG-mw7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LVI-2F-EIk" customClass="CustomeView" customModule="MVVM_With_RXSwift" customModuleProvider="target">
+                                <rect key="frame" x="20" y="502" width="374" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F51-YW-9cj">
+                                        <rect key="frame" x="8" y="8" width="358" height="52"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="F51-YW-9cj" firstAttribute="top" secondItem="LVI-2F-EIk" secondAttribute="top" constant="8" id="R4U-fB-CSo"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fh3-qn-NS5" customClass="CustomeButton" customModule="MVVM_With_RXSwift" customModuleProvider="target">
+                                <rect key="frame" x="20" y="639" width="374" height="61"/>
+                                <color key="backgroundColor" red="0.99634367229999998" green="0.74906522040000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fjx-BZ-roX" secondAttribute="trailing" constant="87" id="4yD-my-fUI"/>
+                            <constraint firstItem="Fjx-BZ-roX" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.242188" id="6MV-zK-BuS"/>
+                            <constraint firstItem="LVI-2F-EIk" firstAttribute="trailing" secondItem="l6r-0g-5Jg" secondAttribute="trailing" id="FB8-Ob-i6z"/>
+                            <constraint firstItem="Fjx-BZ-roX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="48" id="GLQ-hd-cYJ"/>
+                            <constraint firstItem="l6r-0g-5Jg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IDD-pb-z6a"/>
+                            <constraint firstItem="fh3-qn-NS5" firstAttribute="top" secondItem="LVI-2F-EIk" secondAttribute="bottom" constant="77" id="LxJ-aM-W7m"/>
+                            <constraint firstItem="LVI-2F-EIk" firstAttribute="leading" secondItem="l6r-0g-5Jg" secondAttribute="leading" id="Osk-Nt-w88"/>
+                            <constraint firstItem="F51-YW-9cj" firstAttribute="height" secondItem="cwt-Co-1ll" secondAttribute="height" id="XLs-ag-TrG"/>
+                            <constraint firstItem="LVI-2F-EIk" firstAttribute="top" secondItem="l6r-0g-5Jg" secondAttribute="bottom" constant="78" id="ahs-DZ-l3G"/>
+                            <constraint firstItem="l6r-0g-5Jg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0669643" id="azD-52-LFF"/>
+                            <constraint firstItem="cwt-Co-1ll" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.0580357" id="cK9-c8-8Lh"/>
+                            <constraint firstItem="Fjx-BZ-roX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="eB4-bf-ZYX"/>
+                            <constraint firstItem="fh3-qn-NS5" firstAttribute="leading" secondItem="LVI-2F-EIk" secondAttribute="leading" id="efc-Sg-eCC"/>
+                            <constraint firstItem="LVI-2F-EIk" firstAttribute="height" secondItem="l6r-0g-5Jg" secondAttribute="height" id="hTW-PD-wCZ"/>
+                            <constraint firstItem="F51-YW-9cj" firstAttribute="trailing" secondItem="cwt-Co-1ll" secondAttribute="trailing" id="jhh-10-oX7"/>
+                            <constraint firstItem="fh3-qn-NS5" firstAttribute="trailing" secondItem="LVI-2F-EIk" secondAttribute="trailing" id="jpm-XG-5EA"/>
+                            <constraint firstItem="fh3-qn-NS5" firstAttribute="height" secondItem="LVI-2F-EIk" secondAttribute="height" multiplier="1.01667" id="k2l-9m-Idu"/>
+                            <constraint firstItem="F51-YW-9cj" firstAttribute="leading" secondItem="cwt-Co-1ll" secondAttribute="leading" id="l3B-yh-QYx"/>
+                            <constraint firstItem="l6r-0g-5Jg" firstAttribute="top" secondItem="Fjx-BZ-roX" secondAttribute="bottom" constant="55" id="pta-XG-Zix"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="l6r-0g-5Jg" secondAttribute="trailing" constant="20" id="yOf-me-44A"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fEg-hP-t6k"/>
+                    <connections>
+                        <outlet property="EmailTxt" destination="cwt-Co-1ll" id="HlY-98-Pt5"/>
+                        <outlet property="PasswordTxt" destination="F51-YW-9cj" id="Iog-q4-I7H"/>
+                        <outlet property="loginButton" destination="fh3-qn-NS5" id="ehF-Lf-UbK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613" y="115"/>
+        </scene>
+        <!--HomeVC-->
+        <scene sceneID="G0f-pL-4XA">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="eCj-F6-2qQ" customClass="HomeVC" customModule="MVVM_With_RXSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EzX-6b-CzH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sb4-ZL-jUY">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sb4-ZL-jUY" firstAttribute="trailing" secondItem="EzX-6b-CzH" secondAttribute="trailing" id="PBN-5e-0q0"/>
+                            <constraint firstItem="sb4-ZL-jUY" firstAttribute="top" secondItem="EzX-6b-CzH" secondAttribute="top" id="gOa-H8-S0B"/>
+                            <constraint firstAttribute="bottom" secondItem="sb4-ZL-jUY" secondAttribute="bottom" id="paV-6K-iDy"/>
+                            <constraint firstItem="sb4-ZL-jUY" firstAttribute="leading" secondItem="EzX-6b-CzH" secondAttribute="leading" id="suu-AZ-1Os"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Shp-lM-IpU"/>
+                    </view>
+                    <connections>
+                        <outlet property="HomeTV" destination="sb4-ZL-jUY" id="BBV-XC-3Wp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qK6-uh-gc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1290" y="115"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="KNu-17-jPU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="aGu-8B-Pyz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qhe-Hl-2OU">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6Uf-ew-dAL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZWj-tx-kyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49.275362318840585" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="75" height="75"/>
+    </resources>
+</document>
