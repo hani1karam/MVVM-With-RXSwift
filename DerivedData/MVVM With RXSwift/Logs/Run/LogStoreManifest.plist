@@ -5,6 +5,41 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>42FC0A64-B091-4971-8496-6B217DD6CEBE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>42FC0A64-B091-4971-8496-6B217DD6CEBE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MVVM With RXSwift project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MVVM With RXSwift</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MVVM With RXSwift</string>
+			<key>timeStartedRecording</key>
+			<real>628821995.17146301</real>
+			<key>timeStoppedRecording</key>
+			<real>628822365.81687498</real>
+			<key>title</key>
+			<string>Run MVVM With RXSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>42FC0A64-B091-4971-8496-6B217DD6CEBE</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

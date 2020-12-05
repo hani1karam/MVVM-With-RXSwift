@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (4.9.1)
+  - CleanyModal (1.0.2)
+  - Kingfisher (4.10.1)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - PKHUD (5.3.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8)
+  - CleanyModal
+  - Kingfisher
+  - NVActivityIndicatorView
+  - PKHUD
+  - RxCocoa (~> 5.1.0)
+  - RxSwift (~> 5.1.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CleanyModal
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PKHUD
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  CleanyModal: 51cf1b355c8bdab8893d51cea8d28529be5219d9
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 75b9f869d21e86fb2b471bc8b31e4c0efba3210a
+
+COCOAPODS: 1.9.1
